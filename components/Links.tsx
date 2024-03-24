@@ -23,8 +23,8 @@ const Links = () => {
       <div
         className={
           menu
-            ? 'left-0 min-h-screen flex flex-col w-[256px]   gap-6 absolute top-0    py-4 px-8 border-r-2  bg-secondary transition-all'
-            : 'max-lg:left-[-256px] min-h-screen flex flex-col w-[256px]   gap-6 absolute top-0    py-4 px-8 border-r-2  bg-secondary transition-all'
+            ? ' w-3/4 flex items-center  justify-between  gap-6  bg-secondary italic '
+            : 'w-3/4 flex items-center  justify-between  gap-6   bg-secondary italic'
         }
       >
         <Link
@@ -32,33 +32,40 @@ const Links = () => {
           className='flex items-center gap-2'
         >
           <Image
-            src='/images/Logo.png'
+            src='/images/logo.png'
             alt='Next.js Logo'
             width={60}
             height={60}
+            className='rotate-[30deg]'
           />
-          <h1 className='font-bold'>
-            Online <br /> Programming <br /> Courses
-          </h1>
+          <h1 className='font-semibold text-xl  '>Obiadki u Ani</h1>
         </Link>
-        <Link
-          href='/'
-          className='font-bold px-4'
-        >
-          All Courses
-        </Link>
-        <Link
-          href='/my-courses'
-          className='font-bold px-4'
-        >
-          My Courses
-        </Link>
-        <Link
-          href='/courses-pro'
-          className='font-bold px-4'
-        >
-          Courses Pro
-        </Link>
+        <div className='flex items-center gap-6'>
+          <Link
+            href='/menu'
+            className=' px-4'
+          >
+            Menu
+          </Link>
+          <Link
+            href='/serwis'
+            className=' px-4'
+          >
+            Serwis
+          </Link>
+          <Link
+            href='/serwis'
+            className=' px-4'
+          >
+            O Nas
+          </Link>
+          <Link
+            href='/serwis'
+            className=' px-4'
+          >
+            Kontakt
+          </Link>
+        </div>
       </div>
     </>
   )

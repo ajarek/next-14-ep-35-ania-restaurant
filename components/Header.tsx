@@ -9,12 +9,13 @@ const Header = async () => {
   const session = await auth()
   return (
     <>
-      <div className=' min-w-[calc(100vw-272px)] h-[73px] absolute top-0 left-[256px] max-lg:left-0 max-lg:w-full bg-secondary flex justify-between items-center gap-4 pl-8 pr-4'>
-        
-        <Logout session={session} />
-        <ModeToggle />
+      <div className='w-full bg-secondary flex justify-between items-center gap-4 px-4 '>
+        <Links />
+        <div className='w-1/4 flex justify-between items-center italic'>
+          <Logout session={session} />
+          <ModeToggle />
+        </div>
       </div>
-      <Links />
     </>
   )
 }
