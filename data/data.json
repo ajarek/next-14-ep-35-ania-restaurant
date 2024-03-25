@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "title": "Dorsz w cieście",
+    "price": 29.99,
+    "description": "z ziemniakami i bukietem surówek.",
+    "image":"/images/dorsz.jpg"
+  },
+  {
+    "id": 2,
+    "title": "Wątróbka drobiowa",
+    "price": 19.99,
+    "description": "z ziemniakami i bukietem surówek.",
+    "image":"/images/watrobka-dr.jpg"
+  },
+  {
+    "id": 2,
+    "title": "Kotlety mielone",
+    "price": 24.99,
+    "description": "z ziemniakami i bukietem surówek.",
+    "image":"/images/mielone.jpg"
+  }
+]

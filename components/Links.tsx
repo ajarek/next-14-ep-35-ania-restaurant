@@ -34,11 +34,11 @@ const Links = () => {
           <Image
             src='/images/logo.png'
             alt='Next.js Logo'
-            width={60}
-            height={60}
-            className='rotate-[30deg]'
+            width={70}
+            height={70}
+            className=''
           />
-          <h1 className='font-semibold text-xl  '>Obiadki u Ani</h1>
+          <h1 className='font-semibold text-xl  '>Obiadki od Ani</h1>
         </Link>
         <div className='flex items-center gap-6'>
           <Link
