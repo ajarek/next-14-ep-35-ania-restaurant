@@ -3,7 +3,7 @@
 import { useShoppingCart } from 'use-shopping-cart'
 import { useRouter } from 'next/navigation'
 import { Button } from './ui/button'
-
+import { BiCartAdd } from "react-icons/bi";
 type Props = {
   id: number
   title: string
@@ -25,14 +25,17 @@ const AddToCartBtn = ({ id, title, description, image, price }: Props) => {
   }
   const handleCartBtn = () => {
     addItem(item)
-    router.push('/all')
+    router.push('/cart')
+    console.log(item);
+    
   }
   return (
     <Button
-      className='btn btn-primary'
+      className=' rounded-full  flex items-center justify-center'
+      size='icon'
       onClick={handleCartBtn}
     >
-      Add to cart
+      <BiCartAdd color='white' size={30} />
     </Button>
   )
 }
