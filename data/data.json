@@ -14,10 +14,52 @@
     "image":"/images/watrobka-dr.jpg"
   },
   {
-    "id": 2,
+    "id": 3,
     "title": "Kotlety mielone",
     "price": 24.99,
     "description": "z ziemniakami i bukietem surówek.",
     "image":"/images/mielone.jpg"
+  },
+  {
+    "id": 4,
+    "title": "Gulasz",
+    "price": 24.99,
+    "description": "z ziemniakami i bukietem surówek.",
+    "image":"/images/gulasz.jpg"
+  },
+  {
+    "id": 5,
+    "title": "Pulpety",
+    "price": 24.99,
+    "description": "z ziemniakami i bukietem surówek.",
+    "image":"/images/pulpety.jpg"
+  },
+  {
+    "id": 6,
+    "title": "Wątróbka z dzika",
+    "price": 24.99,
+    "description": "z ziemniakami i bukietem surówek.",
+    "image":"/images/watrobka-dz.jpg"
+  },
+  {
+    "id": 7,
+    "title": "Żeberka",
+    "price": 24.99,
+    "description": "z ziemniakami i bukietem surówek.",
+    "image":"/images/zeberka.jpg"
+  },
+  {
+    "id": 8,
+    "title": "Wątróbka z gęsiny",
+    "price": 24.99,
+    "description": "z ziemniakami i bukietem surówek.",
+    "image":"/images/watrobka-gs.jpg"
+  },
+  {
+    "id": 9,
+    "title": "Wątróbka wieprzowa",
+    "price": 24.99,
+    "description": "z ziemniakami i bukietem surówek.",
+    "image":"/images/watrobka-wp.jpg"
   }
 ]

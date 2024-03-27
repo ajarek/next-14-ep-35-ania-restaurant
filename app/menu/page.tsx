@@ -11,7 +11,7 @@ const Menu = () => {
         <Image src={item.image} alt={item.title} width={200} height={200} className='rounded-lg'/>    
         <h1 className='text-xl font-semibold'>{item.title}</h1>
         <p className='max-w-[200px]'>{item.description}</p>
-        <p>{(item.price).toFixed(2)}PLN</p>
+        <p><span className='text-xl mr-2'>{(item.price).toFixed(2)}</span>PLN</p>
         <div className='w-full  flex justify-between items-center'>
           <Counter/>
         <BiCartAdd color='blue' size={40} />
