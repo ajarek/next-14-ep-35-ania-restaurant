@@ -1,10 +1,12 @@
 'use client'
 import Image from 'next/image'
 import Link from 'next/link'
-import { Menu, X } from 'lucide-react'
+import { Menu, X, ShoppingBasket } from 'lucide-react'
 import { useState } from 'react'
+import { useShoppingCart } from 'use-shopping-cart'
 const Links = () => {
   const [menu, setMenu] = useState(false)
+  const { cartCount } = useShoppingCart()
   return (
     <>
       <div
@@ -64,6 +66,15 @@ const Links = () => {
             className=' px-4'
           >
             Kontakt
+          </Link>
+          <Link
+            className='relative flex  gap-2 mr-4'
+            href='/cart'
+          >
+           <ShoppingBasket />
+            <div className=' text-red-500  absolute -top-3 -right-2 flex justify-center items-center '>
+              {cartCount}
+            </div>
           </Link>
         </div>
       </div>

@@ -16,12 +16,12 @@ const Cart = () => {
   } = useShoppingCart()
 
   return (
-    <main className='flex min-h-screen flex-col items-center justify-between px-12 py-24 max-lg:px-4 max-sm:px-2 scrollbar-thumb-blue-500 scrollbar-thin scrollbar-thumb-rounder scrollbar-track-white '>
+    <main className='flex  min-h-[calc(100vh - 80px)] flex-col items-center justify-between px-12 py-4 max-lg:px-4 max-sm:px-2 scrollbar-thumb-blue-500 scrollbar-thin scrollbar-thumb-rounder scrollbar-track-white '>
       {cartCount === 0 ? (
         <div>Twój koszyk jest pusty.</div>
       ) : (
         <>
-          <div className='h-[360px] w-full border-2 p-4 scrollbar-thin  overflow-y-scroll '>
+          <div className='h-[350px] w-full border-2 p-4 scrollbar-thin  overflow-y-scroll '>
             {cartDetails &&
               Object.entries(cartDetails).map(([key, item]) => {
                 return (
@@ -31,8 +31,8 @@ const Cart = () => {
                   >
                     <div>
                       <Image
-                        src={item.image ||''}
-                        alt={item.title ||''}
+                        src={item.image || ''}
+                        alt={item.title || ''}
                         width={60}
                         height={60}
                         style={{
@@ -66,7 +66,7 @@ const Cart = () => {
               })}
           </div>
 
-          <div className='flex flex-col  w-full mt-4'>
+          <div className='flex flex-col  w-full '>
             <div className='flex gap-4 items-center justify-end'>
               <div>Razem</div>
               <div className='text-xl'>${Number(totalPrice).toFixed(2)}</div>
