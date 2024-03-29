@@ -3,16 +3,16 @@ import Image from 'next/image'
 
 const Hero = () => {
   return (
-    <div className=''>
+    <>
       <Image
       src="/images/hero.jpg"
       alt='hero'
-      width={500}
-      height={500}
-      className='rounded-lg'
+      width={400}
+      height={400}
+      className='rounded-lg mt-20'
       />
      
-    </div>
+    </>
   )
 }
 

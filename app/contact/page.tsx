@@ -2,6 +2,7 @@ import { Input } from '@/components/ui/input'
 import Image from 'next/image'
 import { Textarea } from "@/components/ui/textarea"
 import { Button } from '@/components/ui/button'
+import {Smartphone} from 'lucide-react'
 const Contact = async () => {
   return (
     <div className='w-full min-h-screen -mt-20 grid grid-cols-2 max-sm:grid-cols-1 px-12 py-24 '>
@@ -13,7 +14,7 @@ const Contact = async () => {
           height={380}
         />
       </div>
-      <div className='flex justify-center items-center px-4'>
+      <div className='flex flex-col justify-center items-center gap-6'>
         <form
           action=''
           className='w-full flex flex-col gap-4'
@@ -37,7 +38,9 @@ const Contact = async () => {
           />
           <Textarea placeholder="Wiadomość." required />
           <Button className=' '>Wyślij</Button>
+         
         </form>
+         <a className='w-full flex items-center' href="tel:+48573 219 230"><Button className='w-full flex items-center'  ><Smartphone /> 573 219 230 Zadzwoń</Button></a>
       </div>
     </div>
   )
