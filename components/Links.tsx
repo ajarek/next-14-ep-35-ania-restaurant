@@ -56,13 +56,13 @@ const Links = () => {
             Serwis
           </Link>
           <Link
-            href='/serwis'
+            href='/about-us'
             className=' px-4'
           >
             O Nas
           </Link>
           <Link
-            href='/serwis'
+            href='/contact'
             className=' px-4'
           >
             Kontakt

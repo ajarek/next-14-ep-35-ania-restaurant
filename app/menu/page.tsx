@@ -2,8 +2,13 @@ import React from 'react'
 import data from '@/data/data.json'
 import Image from 'next/image'
 import AddToCartBtn from '@/components/AddToCartBtn'
-
-const Menu = () => {
+import { redirect } from 'next/navigation'
+import { auth } from '@/app/api/auth/auth'
+const Menu = async () => {
+  const session = await auth()
+  if (!session) {
+    redirect('/register')
+  }
   return (
     <div className=' min-h-[calc(100vh - 80px)] grid grid-cols-3 max-lg:grid-cols-2 max-sm:grid-cols-1 place-items-center px-24 max-sm:px-2 py-2 gap-4'>
       {data.map((item) => (
