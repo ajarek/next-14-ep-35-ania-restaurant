@@ -13,7 +13,7 @@ const Menu = async () => {
     <div className=' min-h-[calc(100vh - 80px)] grid grid-cols-3 max-lg:grid-cols-2 max-sm:grid-cols-1 place-items-center px-24 max-sm:px-2 py-2 gap-4'>
       {data.map((item) => (
         <div
-          className='flex  gap-2 rounded-lg shadow-xl border-2 pl-4 py-4 max-sm:p-4 '
+          className='flex  gap-2 rounded-lg shadow-xl border-2 pl-4 py-4'
           key={item.id}
         >
           <div>

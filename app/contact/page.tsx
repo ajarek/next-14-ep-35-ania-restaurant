@@ -5,7 +5,7 @@ import { Button } from '@/components/ui/button'
 import {Smartphone} from 'lucide-react'
 const Contact = async () => {
   return (
-    <div className='w-full min-h-screen -mt-20 grid grid-cols-2 max-sm:grid-cols-1 px-12 py-24 '>
+    <div className='w-full min-h-screen -mt-20 grid grid-cols-2 max-sm:grid-cols-1 px-12 py-24 max-sm:px-2 place  items-center '>
       <div className='flex justify-center items-center'>
         <Image
           src='/images/contact.png'

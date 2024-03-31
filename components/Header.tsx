@@ -11,9 +11,9 @@ const Header = async () => {
   
   return (
     <>
-      <div className='h-20 w-full bg-secondary flex justify-between items-center gap-4 px-4 '>
+      <div className='h-20 w-full bg-secondary flex justify-between items-center gap-4 px-8 '>
         <Links />
-        <div className='w-1/4 flex justify-between items-center italic'>
+        <div className='flex justify-between items-center italic gap-2'>
           <Logout session={session} />
           
           <ModeToggle />

@@ -2,7 +2,7 @@ import Image from 'next/image'
 
 const Contact = async () => {
   return (
-    <div className='w-full min-h-screen -mt-20 grid grid-cols-2 max-sm:grid-cols-1 px-12  place  items-center'>
+    <div className='w-full min-h-screen -mt-20 grid grid-cols-2 max-sm:grid-cols-1 px-12 max-sm:px-2  place  items-center'>
       <div className='flex justify-center items-center mt-20'>
         <Image
           src='/images/about.jpg'
@@ -11,7 +11,7 @@ const Contact = async () => {
           height={380}
         />
       </div>
-      <div className='flex flex-col justify-center items-start  gap-4 mt-20'>
+      <div className='flex flex-col justify-center items-start  gap-4 mt-20 max-sm:mt-1 max-sm:py-4'>
         <p>
            Specjalizujemy się w tradycyjnych polskich potrawach, przygotowywanych ze świeżych,
           sezonowych składników. Nasze menu jest pełne sycących dań głównych i pysznych deserów.

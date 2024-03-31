@@ -21,7 +21,7 @@ const Cart = () => {
         <div>Twój koszyk jest pusty.</div>
       ) : (
         <>
-          <div className='h-[350px] w-full border-2 p-4 scrollbar-thin  overflow-y-scroll '>
+          <div className='h-[350px] w-full border-2 p-4 max-sm:p-2 scrollbar-thin  overflow-y-scroll gap-4'>
             {cartDetails &&
               Object.entries(cartDetails).map(([key, item]) => {
                 return (
@@ -33,15 +33,9 @@ const Cart = () => {
                       <Image
                         src={item.image || ''}
                         alt={item.title || ''}
-                        width={60}
-                        height={60}
-                        style={{
-                          maxWidth: '200px',
-                          width: 'auto',
-                          height: '100%',
-                          objectFit: 'contain',
-                          objectPosition: 'center',
-                        }}
+                        width={50}
+                        height={50}
+                       
                       />
                     </div>
 

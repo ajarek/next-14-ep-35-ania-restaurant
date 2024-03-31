@@ -24,14 +24,12 @@ const Links = () => {
       </div>
       <div
         className={
-          menu
-            ? ' w-3/4 flex items-center  justify-between  gap-6  bg-secondary italic '
-            : 'w-3/4 flex items-center  justify-between  gap-6   bg-secondary italic'
+          ' flex items-center  justify-between  gap-6   bg-secondary italic'
         }
       >
         <Link
           href='/'
-          className='flex items-center gap-2'
+          className='flex items-center gap-2 max-sm-gap-1'
         >
           <Image
             src='/images/logo.png'
@@ -42,41 +40,85 @@ const Links = () => {
           />
           <h1 className='font-semibold text-xl  '>Obiadki od Ani</h1>
         </Link>
-        <div className='flex items-center gap-6'>
-          <Link
-            href='/menu'
-            className=' px-4'
-          >
-            Menu
-          </Link>
-          <Link
-            href='/serwis'
-            className=' px-4'
-          >
-            Serwis
-          </Link>
-          <Link
-            href='/about-us'
-            className=' px-4'
-          >
-            O Nas
-          </Link>
-          <Link
-            href='/contact'
-            className=' px-4'
-          >
-            Kontakt
-          </Link>
+        
+        <div className='max-lg:hidden flex'>
+
+          <div className='flex items-center gap-6'>
+            <Link
+              href='/menu'
+              className=' px-4'
+            >
+              Menu
+            </Link>
+            <Link
+              href='/serwis'
+              className=' px-4'
+            >
+              Serwis
+            </Link>
+            <Link
+              href='/about-us'
+              className=' px-4'
+            >
+              O Nas
+            </Link>
+            <Link
+              href='/contact'
+              className=' px-4'
+            >
+              Kontakt
+            </Link>
+          </div>
           <Link
             className='relative flex  gap-2 mr-4'
             href='/cart'
           >
-           <ShoppingBasket />
+            <ShoppingBasket />
             <div className=' text-red-500  absolute -top-3 -right-2 flex justify-center items-center '>
               {cartCount}
             </div>
           </Link>
         </div>
+        {menu && (
+          <div className='absolute top-0 left-0 max-xl flex flex-col pt-20 pb-2 gap-6 bg-secondary lg:hidden'>
+
+          
+            <Link
+              href='/menu'
+              className=' px-4'
+            >
+              Menu
+            </Link>
+            <Link
+              href='/serwis'
+              className=' px-4'
+            >
+              Serwis
+            </Link>
+            <Link
+              href='/about-us'
+              className=' px-4'
+            >
+              O Nas
+            </Link>
+            <Link
+              href='/contact'
+              className=' px-4'
+            >
+              Kontakt
+            </Link>
+         
+          <Link
+            className='relative flex px-4 gap-2 '
+            href='/cart'
+          >
+            <ShoppingBasket />
+            <div className=' text-red-500  absolute -top-3 left-10  flex justify-center items-center '>
+              {cartCount}
+            </div>
+          </Link>
+        </div>
+        )}
       </div>
     </>
   )

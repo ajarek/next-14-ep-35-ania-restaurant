@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 const BestDishes = () => {
   return (
-    <div className='w-full  flex flex-col gap-8  italic mt-20 '>
+    <div className='w-full  flex flex-col gap-8  italic mt-20 pb-4'>
       <h1 className=' text-2xl text-center font-semibold  '>
         Najszybsza dostawa najlepszych obiadów w Kołobrzegu!
       </h1>

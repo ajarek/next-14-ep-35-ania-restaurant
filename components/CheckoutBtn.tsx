@@ -1,6 +1,7 @@
 'use client'
 import { useShoppingCart } from 'use-shopping-cart'
 import { loadStripe } from '@stripe/stripe-js'
+import { Button } from './ui/button'
 
 export default function CheckoutButton() {
   const { cartCount = 0, cartDetails, clearCart } = useShoppingCart()
@@ -33,15 +34,15 @@ export default function CheckoutButton() {
   }
 
   return (
-    <button
+    <Button
       onClick={() => {
         cartCount > 0 && redirectToCheckout()
         clearCart()
       }}
       disabled={cartCount === 0}
-      className='rounded-md border border-transparent bg-sky-900 px-6 py-3 text-base font-medium text-white shadow-sm hover:bg-sky-700 mr-2 disabled:bg-gray-600'
+      className=''
     >
       Checkout
-    </button>
+    </Button>
   )
 }

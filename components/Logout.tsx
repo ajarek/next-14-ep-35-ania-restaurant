@@ -1,15 +1,11 @@
 import Link from 'next/link'
+import LogoutBtn from './LogoutBtn'
 
 const Logout = async ({ session }: any) => {
   return (
     <>
       {session ? (
-        <Link
-          className='px-4 py-1 bg-destructive text-destructive-foreground rounded-sm'
-          href={'/api/auth/signout'}
-        >
-          Logout
-        </Link>
+       <LogoutBtn/>
       ) : (
         <Link
           className='px-4 py-1 bg-primary text-primary-foreground rounded-sm'
@@ -19,7 +15,7 @@ const Logout = async ({ session }: any) => {
         </Link>
       )}
       {session && (
-        <span className='px-4 max-sm:hidden'>{session.user.email}</span>
+        <span className='px-4 max-lg:hidden'>{session.user.email}</span>
       )}
     </>
   )
