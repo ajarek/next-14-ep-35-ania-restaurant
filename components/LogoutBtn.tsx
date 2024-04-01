@@ -11,11 +11,11 @@ const LogoutBtn = () => {
   }
   return (
     <Button
-     variant='destructive'    
-    onClick={handleLogout}
-        >
-          Logout
-        </Button>
+      variant='destructive'
+      onClick={handleLogout}
+    >
+      Logout
+    </Button>
   )
 }
 

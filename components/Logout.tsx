@@ -5,7 +5,7 @@ const Logout = async ({ session }: any) => {
   return (
     <>
       {session ? (
-       <LogoutBtn/>
+        <LogoutBtn />
       ) : (
         <Link
           className='px-4 py-1 bg-primary text-primary-foreground rounded-sm'

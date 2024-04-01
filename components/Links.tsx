@@ -40,9 +40,8 @@ const Links = () => {
           />
           <h1 className='font-semibold text-xl  '>Obiadki od Ani</h1>
         </Link>
-        
-        <div className='max-lg:hidden flex'>
 
+        <div className='max-lg:hidden flex'>
           <div className='flex items-center gap-6'>
             <Link
               href='/menu'
@@ -81,8 +80,6 @@ const Links = () => {
         </div>
         {menu && (
           <div className='absolute top-0 left-0 max-xl flex flex-col pt-20 pb-2 gap-6 bg-secondary lg:hidden'>
-
-          
             <Link
               href='/menu'
               className=' px-4'
@@ -107,17 +104,17 @@ const Links = () => {
             >
               Kontakt
             </Link>
-         
-          <Link
-            className='relative flex px-4 gap-2 '
-            href='/cart'
-          >
-            <ShoppingBasket />
-            <div className=' text-red-500  absolute -top-3 left-10  flex justify-center items-center '>
-              {cartCount}
-            </div>
-          </Link>
-        </div>
+
+            <Link
+              className='relative flex px-4 gap-2 '
+              href='/cart'
+            >
+              <ShoppingBasket />
+              <div className=' text-red-500  absolute -top-3 left-10  flex justify-center items-center '>
+                {cartCount}
+              </div>
+            </Link>
+          </div>
         )}
       </div>
     </>

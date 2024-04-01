@@ -4,62 +4,62 @@
     "title": "Dorsz w cieście",
     "price": 30,
     "description": "z ziemniakami i bukietem surówek.",
-    "image":"/images/dorsz.jpg"
+    "image": "/images/dorsz.jpg"
   },
   {
     "id": 2,
     "title": "Wątróbka drobiowa",
     "price": 20,
     "description": "z ziemniakami i bukietem surówek.",
-    "image":"/images/watrobka-dr.jpg"
+    "image": "/images/watrobka-dr.jpg"
   },
   {
     "id": 3,
     "title": "Kotlety mielone",
     "price": 25,
     "description": "z ziemniakami i bukietem surówek.",
-    "image":"/images/mielone.jpg"
+    "image": "/images/mielone.jpg"
   },
   {
     "id": 4,
     "title": "Gulasz",
     "price": 25,
     "description": "z ziemniakami i bukietem surówek.",
-    "image":"/images/gulasz.jpg"
+    "image": "/images/gulasz.jpg"
   },
   {
     "id": 5,
     "title": "Pulpety",
     "price": 25,
     "description": "z ziemniakami i bukietem surówek.",
-    "image":"/images/pulpety.jpg"
+    "image": "/images/pulpety.jpg"
   },
   {
     "id": 6,
     "title": "Wątróbka z dzika",
     "price": 25,
     "description": "z ziemniakami i bukietem surówek.",
-    "image":"/images/watrobka-dz.jpg"
+    "image": "/images/watrobka-dz.jpg"
   },
   {
     "id": 7,
     "title": "Żeberka",
     "price": 25,
     "description": "z ziemniakami i bukietem surówek.",
-    "image":"/images/zeberka.jpg"
+    "image": "/images/zeberka.jpg"
   },
   {
     "id": 8,
     "title": "Wątróbka z gęsiny",
     "price": 25,
     "description": "z ziemniakami i bukietem surówek.",
-    "image":"/images/watrobka-gs.jpg"
+    "image": "/images/watrobka-gs.jpg"
   },
   {
     "id": 9,
     "title": "Wątróbka wieprzowa",
     "price": 25,
     "description": "z ziemniakami i bukietem surówek.",
-    "image":"/images/watrobka-wp.jpg"
+    "image": "/images/watrobka-wp.jpg"
   }
 ]

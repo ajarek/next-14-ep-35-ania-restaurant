@@ -13,14 +13,15 @@ const Contact = async () => {
       </div>
       <div className='flex flex-col justify-center items-start  gap-4 mt-20 max-sm:mt-1 max-sm:py-4'>
         <p>
-           Specjalizujemy się w tradycyjnych polskich potrawach, przygotowywanych ze świeżych,
-          sezonowych składników. Nasze menu jest pełne sycących dań głównych i pysznych deserów.
-          Oferujemy dowóz do domu lub biura w Kołobrzegu i okolicach. Zamówienia można składać online lub
+          Specjalizujemy się w tradycyjnych polskich potrawach, przygotowywanych
+          ze świeżych, sezonowych składników. Nasze menu jest pełne sycących dań
+          głównych i pysznych deserów. Oferujemy dowóz do domu lub biura w
+          Kołobrzegu i okolicach. Zamówienia można składać online lub
           telefonicznie. Gwarantujemy szybką dostawę i pyszne jedzenie, które
           zachwyci całą rodzinę. Zamów i przekonaj się, że "Obiadki od Ani" to
           najlepszy wybór dla miłośników domowego jedzenia!
         </p>
-        <ul className='list-none ' >
+        <ul className='list-none '>
           Oto kilka powodów, dla których warto wybrać "Obiadki od Ani"":
           <li>Pyszne, domowe jedzenie</li>
           <li>Świeże, sezonowe składniki</li>
