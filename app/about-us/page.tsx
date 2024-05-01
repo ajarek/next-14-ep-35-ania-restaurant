@@ -14,7 +14,7 @@ const Contact = async () => {
       <div className='flex flex-col justify-center items-start  gap-4 mt-20 max-sm:mt-1 max-sm:py-4'>
         <p>
           Specjalizujemy się w tradycyjnych polskich potrawach, przygotowywanych
-          ze świeżych, sezonowych składników. Nasze menu jest pełne sycących dań
+          ze świeżych, regionalnych, sezonowych składników. Nasze menu jest pełne sycących dań
           głównych i pysznych deserów. Oferujemy dowóz do domu lub biura w
           Kołobrzegu i okolicach. Zamówienia można składać online lub
           telefonicznie. Gwarantujemy szybką dostawę i pyszne jedzenie, które
