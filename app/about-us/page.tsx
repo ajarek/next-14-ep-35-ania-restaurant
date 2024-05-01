@@ -18,11 +18,11 @@ const Contact = async () => {
           głównych i pysznych deserów. Oferujemy dowóz do domu lub biura w
           Kołobrzegu i okolicach. Zamówienia można składać online lub
           telefonicznie. Gwarantujemy szybką dostawę i pyszne jedzenie, które
-          zachwyci całą rodzinę. Zamów i przekonaj się, że "Obiadki od Ani" to
+          zachwyci całą rodzinę. Zamów i przekonaj się, że &#34 Obiadki od Ani &#34 to
           najlepszy wybór dla miłośników domowego jedzenia!
         </p>
         <ul className='list-none '>
-          Oto kilka powodów, dla których warto wybrać "Obiadki od Ani"":
+          Oto kilka powodów, dla których warto wybrać &#34 Obiadki od Ani &#34:
           <li>Pyszne, domowe jedzenie</li>
           <li>Świeże, sezonowe składniki</li>
           <li>Tradycyjne polskie potrawy</li>

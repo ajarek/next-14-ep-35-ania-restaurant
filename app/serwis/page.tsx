@@ -14,8 +14,8 @@ const Serwis = async () => {
       </div>
       <div className='flex flex-col justify-center items-start  gap-4 mt-20 max-sm:mt-1 max-sm:py-4'>
         <p>
-          Szukasz pysznego jedzenia bez wychodzenia z domu? Restauracja "Obiadki
-          od Ani" oferuje bezpłatną dostawę posiłków do Twoich drzwi! To idealne
+          Szukasz pysznego jedzenia bez wychodzenia z domu? Restauracja  &#34 Obiadki
+          od Ani &#34 oferuje bezpłatną dostawę posiłków do Twoich drzwi! To idealne
           rozwiązanie dla zabieganych osób, które chcą zjeść smacznie i zdrowo
           bez tracenia czasu na gotowanie.Dostawa jest bezpłatna dla wszystkich
           zamówień powyżej 100,00 PLN. Zamówienie możesz złożyć online lub
