@@ -4,9 +4,12 @@ import Link from 'next/link'
 import { Menu, X, ShoppingBasket } from 'lucide-react'
 import { useState } from 'react'
 import { useShoppingCart } from 'use-shopping-cart'
+import { usePathname } from 'next/navigation'
+
 const Links = () => {
   const [menu, setMenu] = useState(false)
   const { cartCount } = useShoppingCart()
+  const pathname = usePathname()
   return (
     <>
       <div
@@ -29,7 +32,7 @@ const Links = () => {
       >
         <Link
           href='/'
-          className='flex items-center gap-2 max-sm-gap-1'
+          className={`flex items-center gap-2 max-sm-gap-1 `}
         >
           <Image
             src='/images/logo.png'
@@ -79,28 +82,28 @@ const Links = () => {
           </Link>
         </div>
         {menu && (
-          <div className='absolute top-0 left-0 max-xl flex flex-col pt-20 pb-2 gap-6 bg-secondary lg:hidden'>
+          <div className='absolute top-0 left-0 w-[200px] flex flex-col pt-20 pb-2 gap-6 bg-secondary lg:hidden'>
             <Link
               href='/menu'
-              className=' px-4'
+              className={`${pathname === '/menu' ? 'active  px-4 py-2' : 'px-4 py-2'}`}
             >
               Menu
             </Link>
             <Link
               href='/serwis'
-              className=' px-4'
+              className={`${pathname === '/serwis' ? 'active  px-4 py-2' : 'px-4 py-2'}`}
             >
               Serwis
             </Link>
             <Link
               href='/about-us'
-              className=' px-4'
+              className={`${pathname === '/about-us' ? 'active  px-4 py-2' : 'px-4 py-2'}`}
             >
               O Nas
             </Link>
             <Link
               href='/contact'
-              className=' px-4'
+              className={`${pathname === '/contact' ? 'active  px-4 py-2' : 'px-4 py-2'}`}
             >
               Kontakt
             </Link>
