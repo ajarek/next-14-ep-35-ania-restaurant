@@ -44,7 +44,7 @@ const Contact = async () => {
           href='tel:+48573 219 230'
         >
           <Button className='w-full flex items-center'>
-            <Smartphone /> 573 219 230 Zadzwoń
+            <Smartphone /> +48 573 219 230 Zadzwoń
           </Button>
         </a>
       </div>
